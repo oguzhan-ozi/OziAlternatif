@@ -21,6 +21,30 @@
     <title>OziLinux</title>
     <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/3AdKQ4eDUiLw_ubUqzmSVyuWPtFOZNIOOL7nF5n6Q-RDCPO6vAdfT3Gdrkco95_HzQ">
 
+    
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCmnViKXsouGSd_C0ZdMzvd6EWOfabXMws",
+    authDomain: "ozi-ozi.firebaseapp.com",
+    projectId: "ozi-ozi",
+    storageBucket: "ozi-ozi.appspot.com",
+    messagingSenderId: "155530257798",
+    appId: "1:155530257798:web:387a8472ae3a1eb3d17807",
+    measurementId: "G-5NLFP6R6KP"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 
 </head>
 <body>
